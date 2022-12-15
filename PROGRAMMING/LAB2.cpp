@@ -1,3 +1,29 @@
+/* Write a program that calculates and prints the monthly paycheck for an employee. The net pay is calculated after taking the following deductions:
+Federal Income Tax: 15%
+State Tax: 3.5%
+Social Security Tax: 5.75%
+Medicare/Medical Tax: 2.75%
+Pension Plan: 5%
+Health Insurance: $75.00
+ 
+Bill Robinson
+Gross Amount: ............ $3575.00
+Federal Tax: ............. $ 536.25
+State Tax: ............... $ 125.13
+Social Security: ......... $ 205.56
+Medicare/Medicaid Tax: ... $  98.31
+Pension Plan: ............ $ 178.75
+Health Insurance: ........ $  75.00
+Net Pay: ................. $2356.00
+ 
+Note that the first column is left-justified, and the right column is right-justified. */
+
+/* The steps to solve the problem are:
+•	Prompt the user to input the employee name (use getline() function).
+•	Prompt the user to input the gross amount (double value).
+•	Calculate the different deductions (Taxes). You need to declare a variable for each of these deductions.
+•	Calculate the net pay after deducting the taxes from the gross amount. */
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
