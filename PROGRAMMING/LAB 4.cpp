@@ -33,4 +33,50 @@ int main()
        cout<<"No more attempts left."<<endl;
     }
     }
+    	return 0;
 }
+}
+/* BASE CODING
+
+#include <iostream>
+#include <conio.h>
+#include <ctime>
+#include <cstdlib>
+using namespace std;
+
+int main()
+{
+	srand ((unsigned int) time(NULL));
+	int num;
+	int num2 = 1 + rand() % 100;
+
+	cout << "This program is a random guessing game.\n\n";
+
+	do
+	{
+		cout << "Enter an integer greater than or equal to 0 and less than 100: ";
+		cin >> num;
+
+		if ( num < num2 )
+		{
+			cout << "Your guess is lower than the number." << endl;
+			cout << "Guess again!" << endl;
+
+		}
+		else if ( num > num2 )
+		{
+			cout << "Your guess is higher than the number." << endl;
+			cout << "Guess again!" << endl;
+		}
+		else if ( num == num2 )
+		{
+		  cout << "Congratulations, You guessed the correct number." << endl;
+		}
+	} while (num != num2);
+	
+	getch();
+
+	return 0;
+}
+
+*/
