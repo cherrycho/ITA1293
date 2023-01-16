@@ -78,7 +78,7 @@ cin.get(discard);
 return 0;
 }
 void timeOnJob2(int arvHr, int arvMin, bool arvIsAM, int depHr, int depMin, bool depIsAM)
-{// beginning of timeOnJob Function
+{
     int arvTimeInMin;
     int depTimeInMin;
     int timeOnJob2InMin;
@@ -99,12 +99,12 @@ void timeOnJob2(int arvHr, int arvMin, bool arvIsAM, int depHr, int depMin, bool
     }
     else
         if (arvTimeInMin <= depTimeInMin)
-        {// beginning of if
+        {
         timeOnJob2InMin = depTimeInMin - arvTimeInMin;
         cout << "Time spent of job: "
         << timeOnJob2InMin / 60 << " hour(s) and "
         << timeOnJob2InMin % 60 << " minutes." << endl;
-        }// end of if
+        }
         else
         cout << "Invalid input." << endl;
 
