@@ -1,8 +1,7 @@
-  #include <iostream>
+#include <iostream>
+#include<string>
 
-  #include<string>
-
-  using namespace std;
+using namespace std;
 
 void timeOnJob2(int arvHr, int arvMin, bool arvIsAM, int depHr, int depMin, bool depIsAM);
 
